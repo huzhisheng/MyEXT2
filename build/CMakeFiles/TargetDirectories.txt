@@ -1,0 +1,3 @@
+/home/huhu/HITSZ2020_OS/MyEXT2/build/CMakeFiles/rebuild_cache.dir
+/home/huhu/HITSZ2020_OS/MyEXT2/build/CMakeFiles/main.dir
+/home/huhu/HITSZ2020_OS/MyEXT2/build/CMakeFiles/edit_cache.dir

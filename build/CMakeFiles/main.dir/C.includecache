@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+.././include/defs.h
+stdint.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+disk.h
+.././include/disk.h
+unistd.h
+-
+
+.././include/disk.h
+
+/home/huhu/HITSZ2020_OS/MyEXT2/src/disk.c
+disk.h
+/home/huhu/HITSZ2020_OS/MyEXT2/src/disk.h
+stdio.h
+-
+
+/home/huhu/HITSZ2020_OS/MyEXT2/src/fs.c
+defs.h
+/home/huhu/HITSZ2020_OS/MyEXT2/src/defs.h
+
+/home/huhu/HITSZ2020_OS/MyEXT2/src/main.c
+defs.h
+/home/huhu/HITSZ2020_OS/MyEXT2/src/defs.h
+
+/home/huhu/HITSZ2020_OS/MyEXT2/src/sh.c
+defs.h
+/home/huhu/HITSZ2020_OS/MyEXT2/src/defs.h
+
+/home/huhu/HITSZ2020_OS/MyEXT2/src/syscall.c
+defs.h
+/home/huhu/HITSZ2020_OS/MyEXT2/src/defs.h
+
