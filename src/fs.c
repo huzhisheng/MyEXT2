@@ -342,7 +342,6 @@ dirlink(struct inode *dp, char *name, int inum, uint8_t file_type)
   struct dir_item de;
   struct inode *ip;
   if(dp->file_type != T_DIR){
-    inode_print(dp);
     printf("error: 传入目录inode错误\n");
     return -1;
   }
