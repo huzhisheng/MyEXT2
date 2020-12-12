@@ -8,6 +8,10 @@ CMakeFiles/main.dir/src/fs.c.o
  .././include/defs.h
  .././include/disk.h
  /home/huhu/HITSZ2020_OS/MyEXT2/src/fs.c
+CMakeFiles/main.dir/src/icatch.c.o
+ .././include/defs.h
+ .././include/disk.h
+ /home/huhu/HITSZ2020_OS/MyEXT2/src/icatch.c
 CMakeFiles/main.dir/src/main.c.o
  .././include/defs.h
  .././include/disk.h

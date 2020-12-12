@@ -32,6 +32,10 @@ stdio.h
 defs.h
 /home/huhu/HITSZ2020_OS/MyEXT2/src/defs.h
 
+/home/huhu/HITSZ2020_OS/MyEXT2/src/icatch.c
+defs.h
+/home/huhu/HITSZ2020_OS/MyEXT2/src/defs.h
+
 /home/huhu/HITSZ2020_OS/MyEXT2/src/main.c
 defs.h
 /home/huhu/HITSZ2020_OS/MyEXT2/src/defs.h

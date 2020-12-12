@@ -177,6 +177,33 @@ src/fs.c.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/fs.c.s
 .PHONY : src/fs.c.s
 
+src/icatch.o: src/icatch.c.o
+
+.PHONY : src/icatch.o
+
+# target to build an object file
+src/icatch.c.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/icatch.c.o
+.PHONY : src/icatch.c.o
+
+src/icatch.i: src/icatch.c.i
+
+.PHONY : src/icatch.i
+
+# target to preprocess a source file
+src/icatch.c.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/icatch.c.i
+.PHONY : src/icatch.c.i
+
+src/icatch.s: src/icatch.c.s
+
+.PHONY : src/icatch.s
+
+# target to generate assembly for a file
+src/icatch.c.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/icatch.c.s
+.PHONY : src/icatch.c.s
+
 src/main.o: src/main.c.o
 
 .PHONY : src/main.o
@@ -273,6 +300,9 @@ help:
 	@echo "... src/fs.o"
 	@echo "... src/fs.i"
 	@echo "... src/fs.s"
+	@echo "... src/icatch.o"
+	@echo "... src/icatch.i"
+	@echo "... src/icatch.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

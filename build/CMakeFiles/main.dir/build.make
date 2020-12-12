@@ -105,9 +105,33 @@ CMakeFiles/main.dir/src/fs.c.o.provides: CMakeFiles/main.dir/src/fs.c.o.requires
 CMakeFiles/main.dir/src/fs.c.o.provides.build: CMakeFiles/main.dir/src/fs.c.o
 
 
+CMakeFiles/main.dir/src/icatch.c.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/icatch.c.o: ../src/icatch.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huhu/HITSZ2020_OS/MyEXT2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/main.dir/src/icatch.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/src/icatch.c.o   -c /home/huhu/HITSZ2020_OS/MyEXT2/src/icatch.c
+
+CMakeFiles/main.dir/src/icatch.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/src/icatch.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/huhu/HITSZ2020_OS/MyEXT2/src/icatch.c > CMakeFiles/main.dir/src/icatch.c.i
+
+CMakeFiles/main.dir/src/icatch.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/src/icatch.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/huhu/HITSZ2020_OS/MyEXT2/src/icatch.c -o CMakeFiles/main.dir/src/icatch.c.s
+
+CMakeFiles/main.dir/src/icatch.c.o.requires:
+
+.PHONY : CMakeFiles/main.dir/src/icatch.c.o.requires
+
+CMakeFiles/main.dir/src/icatch.c.o.provides: CMakeFiles/main.dir/src/icatch.c.o.requires
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/icatch.c.o.provides.build
+.PHONY : CMakeFiles/main.dir/src/icatch.c.o.provides
+
+CMakeFiles/main.dir/src/icatch.c.o.provides.build: CMakeFiles/main.dir/src/icatch.c.o
+
+
 CMakeFiles/main.dir/src/main.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/main.c.o: ../src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huhu/HITSZ2020_OS/MyEXT2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/main.dir/src/main.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huhu/HITSZ2020_OS/MyEXT2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/main.dir/src/main.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/src/main.c.o   -c /home/huhu/HITSZ2020_OS/MyEXT2/src/main.c
 
 CMakeFiles/main.dir/src/main.c.i: cmake_force
@@ -131,7 +155,7 @@ CMakeFiles/main.dir/src/main.c.o.provides.build: CMakeFiles/main.dir/src/main.c.
 
 CMakeFiles/main.dir/src/sh.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/sh.c.o: ../src/sh.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huhu/HITSZ2020_OS/MyEXT2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/main.dir/src/sh.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huhu/HITSZ2020_OS/MyEXT2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/main.dir/src/sh.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/src/sh.c.o   -c /home/huhu/HITSZ2020_OS/MyEXT2/src/sh.c
 
 CMakeFiles/main.dir/src/sh.c.i: cmake_force
@@ -155,7 +179,7 @@ CMakeFiles/main.dir/src/sh.c.o.provides.build: CMakeFiles/main.dir/src/sh.c.o
 
 CMakeFiles/main.dir/src/syscall.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/syscall.c.o: ../src/syscall.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huhu/HITSZ2020_OS/MyEXT2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/main.dir/src/syscall.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huhu/HITSZ2020_OS/MyEXT2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/main.dir/src/syscall.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/src/syscall.c.o   -c /home/huhu/HITSZ2020_OS/MyEXT2/src/syscall.c
 
 CMakeFiles/main.dir/src/syscall.c.i: cmake_force
@@ -181,6 +205,7 @@ CMakeFiles/main.dir/src/syscall.c.o.provides.build: CMakeFiles/main.dir/src/sysc
 main_OBJECTS = \
 "CMakeFiles/main.dir/src/disk.c.o" \
 "CMakeFiles/main.dir/src/fs.c.o" \
+"CMakeFiles/main.dir/src/icatch.c.o" \
 "CMakeFiles/main.dir/src/main.c.o" \
 "CMakeFiles/main.dir/src/sh.c.o" \
 "CMakeFiles/main.dir/src/syscall.c.o"
@@ -190,12 +215,13 @@ main_EXTERNAL_OBJECTS =
 
 main: CMakeFiles/main.dir/src/disk.c.o
 main: CMakeFiles/main.dir/src/fs.c.o
+main: CMakeFiles/main.dir/src/icatch.c.o
 main: CMakeFiles/main.dir/src/main.c.o
 main: CMakeFiles/main.dir/src/sh.c.o
 main: CMakeFiles/main.dir/src/syscall.c.o
 main: CMakeFiles/main.dir/build.make
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/huhu/HITSZ2020_OS/MyEXT2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/huhu/HITSZ2020_OS/MyEXT2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -205,6 +231,7 @@ CMakeFiles/main.dir/build: main
 
 CMakeFiles/main.dir/requires: CMakeFiles/main.dir/src/disk.c.o.requires
 CMakeFiles/main.dir/requires: CMakeFiles/main.dir/src/fs.c.o.requires
+CMakeFiles/main.dir/requires: CMakeFiles/main.dir/src/icatch.c.o.requires
 CMakeFiles/main.dir/requires: CMakeFiles/main.dir/src/main.c.o.requires
 CMakeFiles/main.dir/requires: CMakeFiles/main.dir/src/sh.c.o.requires
 CMakeFiles/main.dir/requires: CMakeFiles/main.dir/src/syscall.c.o.requires

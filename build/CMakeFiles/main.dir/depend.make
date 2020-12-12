@@ -8,6 +8,10 @@ CMakeFiles/main.dir/src/fs.c.o: .././include/defs.h
 CMakeFiles/main.dir/src/fs.c.o: .././include/disk.h
 CMakeFiles/main.dir/src/fs.c.o: ../src/fs.c
 
+CMakeFiles/main.dir/src/icatch.c.o: .././include/defs.h
+CMakeFiles/main.dir/src/icatch.c.o: .././include/disk.h
+CMakeFiles/main.dir/src/icatch.c.o: ../src/icatch.c
+
 CMakeFiles/main.dir/src/main.c.o: .././include/defs.h
 CMakeFiles/main.dir/src/main.c.o: .././include/disk.h
 CMakeFiles/main.dir/src/main.c.o: ../src/main.c
